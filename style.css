@@ -1,0 +1,133 @@
+em{
+    color: black;
+}
+head{
+    position: relative;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+
+#modem{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff; 
+    background-color: #1E88E5;
+    text-align: left;
+}
+#karta{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff;
+    background-color: #673ab7;
+    text-align: right;
+}
+#wzmacniak{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff;
+    background-color: #ff9800;
+    text-align: left;
+}
+#koncentrator{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff; 
+    background-color: #00bcd4;
+    text-align: right;
+}
+#most{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff; 
+    background-color: #009688;
+    text-align: left;
+}
+#przelacznik{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff; 
+    background-color: #1E88E5;
+    text-align: right;
+}
+#punkt{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff;
+    background-color: #673ab7;
+    text-align: left;
+}
+#router{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff;
+    background-color: #ff9800;
+    text-align: right;
+}
+#bramas{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff;
+    background-color: #00bcd4;
+    text-align: left;
+}
+#voip{
+    padding-top:50px;
+    min-height: 500px;
+    color: #fff;
+    background-color: #009688;
+    text-align: right;
+}
+#zapora{
+    padding-top:50px;
+    min-height:500px;
+    color: #fff;
+    background-color: #1E88E5;
+    text-align: left;
+}
+#modem img{
+    float:right;
+    width:300px;
+}
+#karta img{
+    float:left;
+    width:300px;
+}
+#wzmacniak img{
+    float:right;
+    width:300px;
+}
+#koncentrator img{
+    float:left;
+    width:300px;
+}
+#most img{
+    float:right;
+    width:300px;
+}
+#przelacznik img{
+    float:left;
+    width:300px;
+}
+#punkt img{
+    float:right;
+    width:300px;
+}
+#router img{
+    float:left;
+    width:300px;
+}
+#bramas img{
+    float:right;
+    width:300px;
+}
+#voip img{
+    float:left;
+    width:300px;
+}
+#zapora img{
+    float:right;
+    width:300px;
+}
