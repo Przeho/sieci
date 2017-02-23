@@ -1,3 +1,5 @@
+
+
 em{
     color: black;
 }
@@ -11,82 +13,97 @@ head{
 }
 
 #modem{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff; 
     background-color: #1E88E5;
     text-align: left;
+    position: relative;
 }
 #karta{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff;
     background-color: #673ab7;
     text-align: right;
 }
 #wzmacniak{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff;
     background-color: #ff9800;
     text-align: left;
 }
 #koncentrator{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff; 
     background-color: #00bcd4;
     text-align: right;
 }
 #most{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff; 
     background-color: #009688;
     text-align: left;
 }
 #przelacznik{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff; 
     background-color: #1E88E5;
     text-align: right;
 }
 #punkt{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff;
     background-color: #673ab7;
     text-align: left;
 }
 #router{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff;
     background-color: #ff9800;
     text-align: right;
 }
 #bramas{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff;
     background-color: #00bcd4;
     text-align: left;
 }
 #voip{
-    padding-top:50px;
+    padding-top:200px;
     min-height: 500px;
     color: #fff;
     background-color: #009688;
     text-align: right;
 }
 #zapora{
-    padding-top:50px;
+    padding-top:200px;
     min-height:500px;
     color: #fff;
     background-color: #1E88E5;
     text-align: left;
 }
+#klasyfikacja{
+     padding-top:200px;
+    min-height:500px;
+    color: #fff;
+    background-color: #673ab7;
+    text-align: right;
+}
+.navbar{
+    min-height: 50px;
+}
+#klasyfikacja {
+    
+}
+
 #modem img{
     float:right;
     width:300px;
@@ -131,3 +148,23 @@ head{
     float:right;
     width:300px;
 }
+    @media (min-width: 768px) {
+    .text-justify-lg {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-justify-lg {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-justify-lg {
+        text-align: center;
+    }
+}
+
+
+

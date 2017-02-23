@@ -14,6 +14,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
+ <div class="container">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,10 +39,13 @@
              <li><a href="#bramas">Brama sieciowa </a></li>
                <li><a href="#voip">Brama VoIP </a></li>
                  <li><a href="#zapora">Zapora sieciowa </a></li>
+                  <li><a href="#klasyfikacja">Klasyfikacja </a></li>
             </ul>
            </div>
     </div>
   </div>
+    </div>
+    
 </nav>    
  
 <div id="modem" class="container-fluid">
@@ -146,13 +150,27 @@
       </div>
   </div>
    <div id="zapora" class="container-fluid">
-   <div class="container">
+
    <div class="col-md-12 show animated bounceInRight" data-animate="bounceInRight">
   <h1>Zapora Siecowa</h1>
        <p><em>(firewall)</em> to dedykowany sprzęt komputerowy wraz ze specjalnym oprogramowaniem, blokujący niepowołany dostęp do sieci. </p><p>Jego zadaniem jest filtrowanie połączeń wchodzących (ochrona przed nieuprawnionym dostępem z zewnątrz) i wychodzących do sieci (ochrona przed nieuprawnionym wypływem danych z sieci lokalnej na zewnątrz). Rolę zapory może pełnić również komputer wyposażony w system operacyjny, np. Linux z odpowiednim oprogramowaniem.</p></div>
        </div>
-  </div>
-  
+        <div id="klasyfikacja" class="container-fluid">
+
+   <div class="col-md-12 show animated bounceInRight" data-animate="bounceInRight">
+  <h1>Klasyfikacja urządzeń</h1>
+       <p>
+           Urządzenia te dzielimy na aktywne i pasywne. Do aktywnych zaliczmy:<br>
+           router, hub, switch, repeater, bridge, karta sieciowa.<br>
+           Do pasywnych natomiast zaliczmy:<br>
+           kabel koncentryczny, kabel symetryczny, swiatłowód, patchcord,
+           patch panel, fale radiowe, gniazda, szafa, ramy montażowe.</p>
+           
+           
+       
+       </div>
+       </div>
+    
    <div class="contactend"></div> 
 <div class="footer" id="footer">
     <div class="container">
@@ -172,32 +190,6 @@
     <script src="js/jquery.smooth-scroll.js"></script>
     <script src="js/parallax.js"></script>
 
- <script>
-    $(document).ready(function(){
 
-     $('*[data-animate]').addClass('hide2').each(function(){
-          $(this).viewportChecker({
-            classToAdd: 'show animated ' + $(this).data('animate'),
-            classToRemove: 'hide2',
-            offset: '30%'
-          });
-        });
-
-     });   
-    $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});    
-    </script> 
 </body>
 </html>
