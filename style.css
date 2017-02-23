@@ -1,153 +1,116 @@
+html, body {height: 100%;
+overflow-x:hidden;
+}
+/*
+Kolor navbaru
+*/
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFFFFF;   
+    color: #000;
+}
+.navbar-default .navbar-brand {
+    color: #4a4848;
+}
+/*
+PodĹ›wietlenie navbaru
+*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #f90c74;
+    background-color: transparent;
+}
+/*
+kolor linkĂłw
+*/
+.navbar-default .navbar-nav > li > a {
+    color: #4a4848;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover
+.navbar-default .navbar-nav > .active > a:focus {
+    
+    color: #FFF;
+    background-color: #1A242F;
+}
+/*
+podĹ›wietlenie linkĂłw
+*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #f90c74;
+    background-color: transparent;
+}
+.czcionka {
+ font-family: 'Lobster', cursive;   
+    font-size: 20px;
+}
+.navbar a{
+ margin-top:20px; 
+}
 
 
-em{
-    color: black;
-}
-head{
-    position: relative;
-}
-.footer{
-    background-color: black;
+   .cytat {
+    margin-top: 80px;
+    height: 200px;
     text-align: center;
-    color: aliceblue;
+    padding-top: 60px;
+    color: #5a5558;
+    margin-bottom: 0px;
+    background-color: gainsboro;
+    min-height: 250px;
+    font-family: 'Lobster', cursive; 
 }
 
-#modem{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff; 
-    background-color: #1E88E5;
-    text-align: left;
-    position: relative;
+.cytat h1{
+    font-family: 'Lobster', cursive;
 }
-#karta{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #673ab7;
-    text-align: right;
+.logo img{
+     
+}   
+.srodek{
+     padding-top: 60px;
+    background-color: white;
 }
-#wzmacniak{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #ff9800;
-    text-align: left;
-}
-#koncentrator{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff; 
-    background-color: #00bcd4;
-    text-align: right;
-}
-#most{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff; 
-    background-color: #009688;
-    text-align: left;
-}
-#przelacznik{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff; 
-    background-color: #1E88E5;
-    text-align: right;
-}
-#punkt{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #673ab7;
-    text-align: left;
-}
-#router{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #ff9800;
-    text-align: right;
-}
-#bramas{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #00bcd4;
-    text-align: left;
-}
-#voip{
-    padding-top:200px;
-    min-height: 500px;
-    color: #fff;
-    background-color: #009688;
-    text-align: right;
-}
-#zapora{
-    padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #1E88E5;
-    text-align: left;
-}
-#klasyfikacja{
-     padding-top:200px;
-    min-height:500px;
-    color: #fff;
-    background-color: #673ab7;
-    text-align: right;
-}
-.navbar{
-    min-height: 50px;
-}
-#klasyfikacja {
+.srodek h1{
+   color: deeppink;
+    font-family: 'Lobster';
     
 }
+.tekstz{
+     padding-top: 60px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.zdjeciet{
+    float: right;
+}
+.wideo{
+    padding-top: 60px;
+    background-color: gainsboro;
+    padding-bottom: 30px;
 
-#modem img{
-    float:right;
-    width:300px;
 }
-#karta img{
-    float:left;
-    width:300px;
+.wideo h4{
+    font-family:'Lobster'; 
 }
-#wzmacniak img{
-    float:right;
-    width:300px;
+
+
+.czcionka2{
+    font-family: 'Lobster' ,cursive;
+    color:deeppink;
 }
-#koncentrator img{
-    float:left;
-    width:300px;
+.formularz{
+    background-color: white;
+} 
+.formularz h2{
+    font-family: 'Lobster';
+    color:deeppink;
 }
-#most img{
-    float:right;
-    width:300px;
-}
-#przelacznik img{
-    float:left;
-    width:300px;
-}
-#punkt img{
-    float:right;
-    width:300px;
-}
-#router img{
-    float:left;
-    width:300px;
-}
-#bramas img{
-    float:right;
-    width:300px;
-}
-#voip img{
-    float:left;
-    width:300px;
-}
-#zapora img{
-    float:right;
-    width:300px;
-}
+  
+    
+    
+    
     @media (min-width: 768px) {
     .text-justify-lg {
         text-align: center;
@@ -166,5 +129,7 @@ head{
     }
 }
 
+    
 
 
+  
